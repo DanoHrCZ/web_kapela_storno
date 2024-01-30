@@ -1,6 +1,6 @@
 // importování rotes
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Routes, Route } from 'react-router-dom';
 
 // importování layoutu
 import Layout from "./pages/Layout"
