@@ -1,0 +1,16 @@
+* {
+    --main_black: rgb(26, 26, 26);
+}
+* {
+    --black: rgb(0, 0, 0);
+}
+* {
+    --main_red: rgb(145, 0, 0);
+}
+* {
+    --color_dark_green: rgb(120, 160, 85);
+}
+body{
+    background-color: var(--main_black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

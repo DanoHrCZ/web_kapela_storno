@@ -1,6 +1,6 @@
 // importování rotes
 import React from 'react';
-import { BrowserRouter as Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // importování layoutu
 import Layout from "./pages/Layout"
@@ -12,16 +12,14 @@ import Discography from "./pages/Discography"
 import Contacts from "./pages/Contacts"
 
 const App = () =>{
-return <>
-<Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<LandingPage />} />
+return <BrowserRouter>
+      <Routes>
+          <Route path="landingPage" element={<LandingPage />} />
           <Route path="concerts" element={<Concerts />} />
           <Route path="discography" element={<Discography />} />
           <Route path="contacts" element={<Contacts />} />
-        </Route>
       </Routes>
-    </>
+    </BrowserRouter>
 
 }
 
