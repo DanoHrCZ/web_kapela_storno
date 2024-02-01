@@ -14,7 +14,7 @@ import Contacts from "./pages/Contacts"
 const App = () =>{
 return <BrowserRouter>
       <Routes>
-          <Route path="landingPage" element={<LandingPage />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path="concerts" element={<Concerts />} />
           <Route path="discography" element={<Discography />} />
           <Route path="contacts" element={<Contacts />} />
