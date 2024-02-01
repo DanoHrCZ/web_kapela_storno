@@ -6,6 +6,7 @@ import Footer from "../moduls/Footer"
 const LandingPage = () =>{
     return <div className="page">
     <Navbar></Navbar>
+    
     <Footer></Footer>
     </div>
 }

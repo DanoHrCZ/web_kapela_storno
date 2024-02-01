@@ -10,6 +10,7 @@
 * {
     --color_dark_green: rgb(120, 160, 85);
 }
+
 body{
     background-color: var(--main_black);
     font-family: Verdana, Geneva, Tahoma, sans-serif;

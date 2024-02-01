@@ -1,6 +1,6 @@
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
@@ -10,14 +10,15 @@ const Navbar = () =>{
       setMenuVisibility(!isMenuVisible);
   };
 
-  return <div className="Navbar">
+  return <div className="navbar">
    <FontAwesomeIcon className="hamburger" onClick={ menuVisibility } icon={faBars} style={{color: "#ffffff"}} />
     <div className={`navLinks ${isMenuVisible ? 'menuIsVisible' : 'menuIsHidden'}`}>
     <Link className="navbarLink" to="/">Úvod</Link>
-    <Link className="navbarLink" to="/Koncerts">Koncerty</Link>
+    <Link className="navbarLink" to="/Concerts">Koncerty</Link>
     <Link className="navbarLink" to="/Discography">Diskografie</Link>
     <Link className="navbarLink" to="/Contacts">Kontakty</Link>
     </div>
+    <FontAwesomeIcon className="user_icon" icon={faUser} style={{color: "#ffffff"}}/>
    
   </div>
 
