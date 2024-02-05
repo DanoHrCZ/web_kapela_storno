@@ -3,13 +3,13 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // importování layoutu
-import Layout from "./pages/Layout"
+import Layout from "./pages/layouts/Layout"
 
 // importování stránek
-import LandingPage from "./pages/LandingPage"
-import Concerts from "./pages/Concerts"
-import Discography from "./pages/Discography"
-import Contacts from "./pages/Contacts"
+import LandingPage from "./pages/landingPage/LandingPage"
+import Concerts from "./pages/concerts/Concerts"
+import Discography from "./pages/discography/Discography"
+import Contacts from "./pages/contacts/Contacts"
 
 const App = () =>{
 return <BrowserRouter>
