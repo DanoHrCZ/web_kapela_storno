@@ -8,10 +8,10 @@ import FourPicture from "../../moduls/sections/FourPicture/FourPicture"
 const LandingPage = () =>{
     return <div className="page">
     <Navbar></Navbar>
-    <section >
+
     <SectionImgRight></SectionImgRight>
     <FourPicture></FourPicture>
-    </section>
+
     <Footer></Footer>
     </div>
 }

@@ -14,4 +14,12 @@
 body{
     background-color: var(--main_black);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+h1{
+    font-size: 2em;
+}
+
+p{
+
 }

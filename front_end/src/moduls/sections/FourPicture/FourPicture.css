@@ -16,4 +16,12 @@
     width: 100%;
     color: white;
     text-align: center;
+    opacity: 0.95;
+}
+@media only screen and (max-width: 900px){
+    .picture_vertical{
+        width: 40%;
+        margin: 5px;
+    }
+
 }

@@ -3,6 +3,8 @@ import "./FourPicture.css"
 import test_picture_1 from "../../../media/test_picture_1.png"
 import microphone from "../../../media/microphone.png"
 import bass from "../../../media/bass.png"
+import drums from "../../../media/drums.png"
+import guitar from "../../../media/guitar.png"
 
 const FourPicture = () =>{
 
@@ -23,13 +25,13 @@ const FourPicture = () =>{
 <div className="picture_vertical">
 <h2>Bicí</h2>
 <p>Karel Kučera</p>
-<img src={test_picture_1} alt="" />
+<img src={drums} alt="" />
 </div>
 
 <div className="picture_vertical">
 <h2>Kytara</h2>
 <p>Zdeněk Hrečin</p>
-<img src={test_picture_1} alt="" />
+<img src={guitar} alt="" />
 </div>
 </div>
 }

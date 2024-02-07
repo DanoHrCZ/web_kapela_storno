@@ -2,11 +2,28 @@ header{
     display: flex;
     flex-direction: row;
 }
-img{
-    width: 35%;
-    margin: 10px;
+.image_logo{
+    width: 45%;
+    margin: 0px;
 }
-.text{
-    margin: 100px 50px;
+.text1{
+    margin: 20px 50px 10px 20px;
     color: white;
+    width: 45%;
+}
+
+@media only screen and (max-width: 750px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .image_logo{
+        width: 80%;
+    }
+    .text1{
+        margin: 20px;
+        width: 80%;
+    }
 }
