@@ -27,6 +27,13 @@ const Footer = () =>{
             </div>
           </a>
         </div>
+        <div>
+          <p>&copy; Daniel Hrečin</p>
+          <p>&copy; kapela Storno</p>
+        </div>
+        <div>
+        <p>kapela.storno@gmail.com</p>
+        </div>
     <div className={"footerLinks"}>
     <Link className="footerLink" to="/">Úvod</Link>
     <Link className="footerLink" to="/Koncerts">Koncerty</Link>
