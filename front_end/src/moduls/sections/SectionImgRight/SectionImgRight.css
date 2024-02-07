@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 35%;
+    margin: 10px;
+}
+.text{
+    margin: 100px 50px;
+    color: white;
+}
